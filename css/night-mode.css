@@ -1,0 +1,30 @@
+:root{
+    --dark-soft: #616E7D;
+    --light-soft: #e0e0e0;
+}
+.night-mode{
+    background-color: var(--dark);
+}
+
+.night-mode p,.night-mode label,.night-mode tr,.night-mode td,.night-mode th{
+    color: var(--light-soft);
+    transition: 0.3s;
+}
+.night-mode button,.night-mode th{
+    border: 1px solid var(--dark-soft) !important;
+    background-color: var(--dark-soft) !important;
+}
+.night-mode .input,.night-mode .select,.night-mode option{
+    background-color: var(--dark-soft);
+    color: var(--light-soft) !important;
+}
+.night-mode .input::placeholder{
+    color: var(--light-soft);
+}
+.night-mode .mode{
+    box-shadow: var(--light-soft) 0px 0px 8px;
+}
+.night-mode .mode i{
+    color: var(--light-soft);
+}
+.night-mode .record tr:hover {background-color: rgb(66, 66, 66);}
